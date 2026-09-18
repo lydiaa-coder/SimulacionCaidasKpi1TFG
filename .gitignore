@@ -1,0 +1,23 @@
+# Bytecode y cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Carpetas de salida generadas por la simulación
+salidas_simulacion/
+resultados_simulacion.xlsx
+
+# Archivos de sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
