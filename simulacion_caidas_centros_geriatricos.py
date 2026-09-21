@@ -111,7 +111,7 @@ def leer_plantilla(path):
             "sensor_min_seg": float(d["Detección sensor ambiental - mínimo (seg)"][1]),
             "sensor_max_seg": float((d.get("Detección sensor ambiental - máximo (seg)")
                                      or d["Detección sensor ambiental -máximo (seg)"])[1]),
-            "p_activar_manual": d["Prob. de poder activar dispositivo manual"][1],
+            "p_activar_manual": d["Probabilidad de poder activar dispositivo manual"][1],
             # fallback si modo='dispositivo_manual' y no se puede activar: usa las mismas
             # rondas manuales definidas para As-Is
             "ronda_dia": float(d["Intervalo de ronda - turno día (min)"][0]),
